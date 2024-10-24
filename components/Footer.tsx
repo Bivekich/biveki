@@ -36,9 +36,17 @@ const Footer = () => {
         <p className="md:text-base text-sm md:font-normal font-light">
           Все права защищены © 2024 Biveki
         </p>
-        <p className="md:text-base text-sm md:font-normal font-light">
-          ИП Данилов Лев Ильич, ИНН: 370230592107
-        </p>
+        <div className="flex flex-col text-center">
+          <p className="md:text-base text-sm md:font-normal font-light">
+            ИП Данилов Лев Ильич, ИНН: 370230592107
+          </p>
+          <p className="md:text-base text-sm md:font-normal font-light">
+            Адрес: улица 6-я Сокольская, д. 10, Ивановская область, г. Иваново
+          </p>
+          <p className="md:text-base text-sm md:font-normal font-light">
+            Номер телефона: +79611177205
+          </p>
+        </div>
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
